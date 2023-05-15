@@ -1,3 +1,69 @@
 /*
     || SPECIFICS CSS FOR HOME
 */
+
+aside {
+    height: 60vh;
+    display: grid;
+    width: 1vw;
+    border-left: 3px solid #9E91B7;
+    float: left;
+    position: absolute;
+    top:  0;
+    left: 4vw;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+aside .ligne {
+    grid-row: 1;
+    border-right: 3px solid #9E91B7;
+    width: 50%;
+}
+
+aside .social-networks {
+    grid-row: 2;
+    margin-left: -30%;
+}
+
+aside ul li {
+    margin-top: 5%;
+}
+
+/*
+    || STYLE FOR INTRODUCTION SECTION
+*/
+section[class="introduction"] {
+    padding: 10% 15%;
+    background-image: url('../images/accueil/Pantherhome1.png');
+    height: 50vh;
+    width: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 70% top;
+    margin-top: -10%;
+}
+
+section[class="introduction"] p {
+    width: 32vw;
+    text-align: justify;
+}
+
+section a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*
+    || STYLE FOR PRESENTATION SECTION
+*/
+section[class="presentation"] {
+    padding-left: 10%;
+    width: 100%;
+}
+
+section[class="presentation"] div {
+    height: 30vh;
+    width: 100%;
+    background-color: #07338C;
+}
