@@ -117,6 +117,10 @@ ul li a:hover, ul li[class='active'] a  {
     color: #9E91B7;
 }
 
+main {
+    padding-bottom: 50%;
+}
+
 
 /*
     || STYLE FOR FOOTER
@@ -140,7 +144,6 @@ footer {
     background-image: url('../images/all/back_footer.png');
     background-repeat: no-repeat;
     margin-left: -1%;
-    margin-bottom: -10%;
     height: 70vh;
     width: 100vw;
     /* GRID */

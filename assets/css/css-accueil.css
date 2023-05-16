@@ -62,8 +62,8 @@ section[class="presentation"] {
     width: 100%;
 }
 
-section[class="presentation"] div {
-    height: 30vh;
+section[class="presentation"] > div {
+    height: 10vh;
     width: 100%;
     background-color: #07338C;
 }
