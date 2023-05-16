@@ -29,47 +29,53 @@
     font-family: 'Wakanda forever';
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-image: url('../images/all/arrière_plan.png');
     overflow-x: hidden;
     font-family: 'Cantarell';
-    font-size: 16px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0;
     color: #fff;
 }
 
 h1 {
     font-family: 'Panthera';
-    font-size: 68px;
+    font-size: 4.25em;
     color: #9E91B7;
 }
 
 h2 {
     font-family: 'BEYNO';
-    font-size: 32px;
+    font-size: 2em;
     color: #9E91B7;
 }
 
 h2[class='wakanda-forever'] {
     font-family: 'Wakanda forever';
-    font-size: 43px;
+    font-size: 2.68em;
+}
+
+.titre {
+    font-size: 1.5em;
 }
 
 .text {
     font-family: 'Cantarell';
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .text-citation {
     font-family: 'Cantarell';
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 .text-footer {
     font-family: 'Cantarell';
-    font-size: 10px;
+    font-size: 0.62em;
 }
 
 /*
@@ -127,8 +133,8 @@ main {
 */
 footer h2 {
     font-family: 'Cantarell';
-    letter-spacing: 10px;
-    font-size: 16px;
+    letter-spacing: 0.95em;
+    font-size: 1em;
 }
 
 

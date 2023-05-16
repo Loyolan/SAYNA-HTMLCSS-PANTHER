@@ -58,12 +58,92 @@ section a {
     || STYLE FOR PRESENTATION SECTION
 */
 section[class="presentation"] {
-    padding-left: 10%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
 }
 
-section[class="presentation"] > div {
-    height: 10vh;
+section[class="presentation"] > div[class='wrapper'] {
+    grid-column: 1/2;
+}
+
+section[class="presentation"] > div[class='wrapper'] {
+    grid-column: 2/3;
+    padding-left: 10%;
+    height: 30vh;
     width: 100%;
     background-color: #07338C;
+    padding-left: 2%;
+}
+
+section[class="presentation"] .wrapper {
+    display: grid;
+    grid-template-columns: 4fr 4fr 3fr 4fr 2fr;
+}
+
+section[class="presentation"] .wrapper .img-1 {
+    grid-column: 1/2;
+}
+
+section[class="presentation"] .wrapper .img-1 img {
+    height: 90%;
+    margin-top: -15%;
+}
+
+section[class="presentation"] .wrapper .part-1 {
+    grid-column: 2/3;
+    padding: 5%;
+    position: relative;
+}
+
+section[class="presentation"] .wrapper .img-2 {
+    grid-column: 3/4;
+}
+
+section[class="presentation"] .wrapper .img-2 img {
+    height: 65%;
+}
+
+section[class="presentation"] .wrapper .part-2 {
+    grid-column: 4/5;
+    padding: 5%;
+    position: relative;
+}
+
+section[class="presentation"] .wrapper .img-3 {
+    grid-column: 5/6;
+    position: relative;
+}
+
+
+section[class="presentation"] .wrapper .img-3 a {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    padding: 10% 15%;
+    background-color: #07338C;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+section[class="presentation"] .wrapper .img-3 img {
+    height: 65%;
+}
+
+section[class="presentation"] .wrapper>div>a[class='plus'] {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+}
+
+
+/*
+    || STYLE FOR STORIES SECTION
+*/
+section[class='stories'] {
+    margin-top: 15%;
+}
+
+section[class='stories'] .wrapper {
+    
 }
