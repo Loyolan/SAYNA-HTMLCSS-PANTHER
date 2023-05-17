@@ -59,6 +59,11 @@ h2[class='wakanda-forever'] {
     font-size: 2.68em;
 }
 
+h3 {
+    font-family: 'Cantarell';
+    font-size: 2em;
+}
+
 .titre {
     font-size: 1.5em;
 }
@@ -124,7 +129,7 @@ ul li a:hover, ul li[class='active'] a  {
 }
 
 main {
-    padding-bottom: 50%;
+    padding-bottom:5%;
 }
 
 
