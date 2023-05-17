@@ -86,13 +86,13 @@ section[class="presentation"] .wrapper .img-1 {
 }
 
 section[class="presentation"] .wrapper .img-1 img {
-    height: 90%;
+    height: 70%;
     margin-top: -15%;
 }
 
 section[class="presentation"] .wrapper .part-1 {
     grid-column: 2/3;
-    padding: 5%;
+    padding: 3%;
     position: relative;
 }
 
@@ -101,12 +101,12 @@ section[class="presentation"] .wrapper .img-2 {
 }
 
 section[class="presentation"] .wrapper .img-2 img {
-    height: 65%;
+    height: 50%;
 }
 
 section[class="presentation"] .wrapper .part-2 {
     grid-column: 4/5;
-    padding: 5%;
+    padding: 3%;
     position: relative;
 }
 
@@ -127,12 +127,12 @@ section[class="presentation"] .wrapper .img-3 a {
 }
 
 section[class="presentation"] .wrapper .img-3 img {
-    height: 65%;
+    height: 50%;
 }
 
 section[class="presentation"] .wrapper>div>a[class='plus'] {
     position: absolute;
-    bottom: 40%;
+    bottom: 50%;
     left: 5%;
 }
 

@@ -1,3 +1,24 @@
 /*
     || SPECIFICS CSS FOR ENIGME
 */
+section[class="introduction"] {
+    padding: 10% 15%;
+    background-image: url('../images/enigme/Pantherenigme1.png');
+    height: 50vh;
+    width: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 0% top;
+    margin-top: -10%;
+    display: grid;
+    grid-template-columns: 4fr 6fr 2fr;
+}
+
+section[class="introduction"] .content {
+    grid-column: 2/3;
+}
+
+section[class="introduction"] p {
+    width: 32vw;
+    text-align: justify;
+}

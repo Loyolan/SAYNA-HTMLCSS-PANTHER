@@ -12,12 +12,12 @@ p {
 section[class="introduction"] {
     margin-top: -10%;
     background-image: url('../images/wakanda/Pantherwakanda1.png');
-    height: 65vh;
+    height: 80vh;
     width: 101%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: -10em 0em;
-    padding: 10%;
+    padding: 10%  10% 0 10%;
 }
 
 section[class="introduction"] p {
@@ -25,13 +25,27 @@ section[class="introduction"] p {
     text-align: justify;
 }
 
+section[class="content"] {
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    margin-top: -8%;
+    padding-top: 10%;
+    background-size: contain;
+    background-position: left top;
+}
+
 section[class="content"] .wrapper {
     display: grid;
-    grid-template-columns:6vw 40vw 7vw 40vw 5vw;
+    grid-template-columns:8vw 35vw 10vw 35vw;
 }
 
 section[class="content"] .left-content {
     grid-column: 2/3;
+}
+
+section[class="content"] .left-content .video iframe {
+    width: 100%;
+    /*height: ;*/
 }
 
 section[class="content"] .right-content {
