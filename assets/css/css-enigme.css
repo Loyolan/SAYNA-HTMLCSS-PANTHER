@@ -1,24 +1,52 @@
 /*
     || SPECIFICS CSS FOR ENIGME
 */
+
+/*
+    || STYLE FOR INTRODUCTION SECTION
+*/
+h1 {
+    font-family: 'BEYNO';
+    text-align: justify;
+    font-weight: normal;
+}
+
 section[class="introduction"] {
     padding: 10% 15%;
     background-image: url('../images/enigme/Pantherenigme1.png');
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 0% top;
     margin-top: -10%;
     display: grid;
-    grid-template-columns: 4fr 6fr 2fr;
+    grid-template-columns: 3fr 6fr 2fr;
 }
 
 section[class="introduction"] .content {
     grid-column: 2/3;
+    margin-top: -10%;
 }
 
 section[class="introduction"] p {
     width: 32vw;
     text-align: justify;
+    background-image: url('../images/enigme/Pantherenigme2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22%;
+}
+
+/*
+    || STYLE FOR ENIGME SECTION
+*/
+p[class='wakanda-forever'] {
+    font-family: 'Wakanda Forever';
+    font-size: 2em;
+    letter-spacing: 0.25em;
+    color: #9E91B7;
+}
+section[class="enigme"] {
+    padding: 10%;
 }

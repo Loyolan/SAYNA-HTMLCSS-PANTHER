@@ -157,7 +157,7 @@ section[class='stories'] .wrapper .part-text {
 section[class='stories'] .wrapper .profile {
     grid-column:  3/4;
     display: grid;
-    grid-template-rows: 1fr 4fr 4fr;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
 }
 
 section[class='stories'] .text {
@@ -193,13 +193,13 @@ section[class='stories'] .wrapper .profile .card .content{
 }
 
 section[class='stories'] .wrapper .profile .black-img {
-    grid-row: 3;
+    grid-row: 4;
     display: flex;
     align-items: center;
 }
 
 section[class='stories'] .wrapper .profile .black-img img {
-    margin-left: -10%;
+    margin-left: -20%;
 }
 
 /*
@@ -226,8 +226,8 @@ section[class='contact'] .content {
     border-radius: 20%;
     text-align: center;
     grid-column: 2/3;
-    height: 55vh;
-    padding: 3em 0;
+    height: 60vh;
+    padding: 1em 0;
 }
 
 section[class='contact'] .content input {
@@ -241,7 +241,7 @@ section[class='contact'] .content input {
 
 section[class='contact'] .content textarea {
     width: 40%;
-    height: 10em;
+    height: 7em;
     resize: none;
     border: 1px solid #3D2DA6;
     padding: 0 5%;
