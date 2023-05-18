@@ -34,8 +34,10 @@ section[class="content"] {
     background-position: left top;
 }
 
+/* GRID WRAPPER */
 section[class="content"] .wrapper {
     display: grid;
+    /*  with 4 columns (0.8*screenWidth, 3.5*screenWidth, screenWidth, 3.5*screenWidth)  */
     grid-template-columns:8vw 35vw 10vw 35vw;
 }
 
@@ -47,11 +49,13 @@ section[class="content"] .left-content .video {
     position: relative;
 }
 
+/* Syle for media content */
 section[class="content"] .left-content .video video {
     width: 100%;
     height: 20vw;
 }
 
+/* Icon player */
 section[class="content"] .left-content .player-icon {
   position: absolute;
   width: 20%;
@@ -72,6 +76,5 @@ section[class="content"] .right-content {
 
 section[class="content"] .right-content .military-power .part-3 img {
     width: 100%;
-    /*height: ;*/
     height: 20vw;
 }

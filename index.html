@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/css-accueil.css">
 </head>
 <body>
+    <!-- HEADER OF PAGE -->
     <header>
         <nav>
             <h1 class="logo"></h1>
@@ -35,6 +36,7 @@
         </nav>
         
     </header>
+    <!-- SIDE BAR -->
     <aside id="logo-container">
         <div class="ligne">
             
@@ -64,7 +66,9 @@
             </ul>
         </div>
     </aside>
+    <!-- CONTENT OF PAGE -->
     <main>
+        <!-- INTRODUCTION SECTION -->
         <section class="introduction">
             <h1 id="script">BLACK PANTHER</h1>
             <h2>WAKANDA FOREVER</h2>
@@ -73,15 +77,19 @@
             </p>
             <a href="">Voir plus ></a>
         </section>
-        <!-- SECTION PRESENTATION -->
+        <!-- PRESENTATION SECTION -->
         <section class="presentation">
             <div class="vide">
                 
             </div>
+            <!-- GRID WRAPPER: 6 COLUMNS -->
             <div class="wrapper">
+                <!-- COLUMN 1: EMPTY -->
+                <!-- COLUMN 2: IMG 1  -->
                 <div class="img-1">
                     <img src="./assets/images/accueil/Pantherhome2.png" alt="Photo de Killmonger avec ses arme">
                 </div>
+                <!-- COLUMN 3: TEXT 1-->
                 <div class="part-1">
                     <h2 class="titre">KILLMONGER</h2>
                     <p class="text-citation">
@@ -89,9 +97,11 @@
                     </p>
                     <a class="plus" href="">Voir plus ></a>
                 </div>
+                <!-- COLUMN 4: IMG 2 -->
                 <div class="img-2">
                     <img src="./assets/images/accueil/Pantherhome3.png" alt="Photo de Dora Milaje">
                 </div>
+                <!-- COLUMN 5: TEXT 2 -->
                 <div class="part-2">
                     <h2 class="titre">OKOYE</h2>
                     <p class="text-citation">
@@ -99,6 +109,7 @@
                     </p>
                     <a class="plus" href="">Voir plus ></a>
                 </div>
+                <!-- COLUMN 6: IMG 3 -->
                 <div class="img-3">
                     <img src="./assets/images/accueil/Pantherhome4.png" alt="Photo de la soeur de T'Challa">
                     <a href="">></a>
@@ -106,9 +117,11 @@
             </div>
         </section>
 
-        <!-- SECTION STORIES -->
+        <!-- STORIES SECTION -->
         <section class="stories">
+            <!-- GRID WRAPPER: 4 COLUMNS -->
             <div class="wrapper">
+                <!-- COLUMN 1: DESCRIPTON, TEXT -->
                 <div class="part-text">
                     <div class="prince-born">
                         <h2 class="titre">Naissance d’un prince</h2>
@@ -188,7 +201,12 @@
                         </div>
                     </div>
                 </div>
+                <!-- COLUMN 2: EMPTY -->
+                <!-- COLUMN 3: PROFILE AND TCHALLA IMAGE WITH HIS UNIFORM -->
+                <!-- GRID WRAPPER: 4 ROWS -->
                 <div class="profile">
+                    <!-- ROW 1: EMPTY -->
+                    <!-- ROW 2: CARD PROFILE -->
                     <div class="card">
                         <img src="./assets/images/accueil/Pantherhome5.png" alt="Photo de T’Challa, alias 'Panther noir'">
                         <h3>T’Challa</h3>
@@ -213,7 +231,8 @@
                             <p>Réalité : <b>Terre 199999</b></p>
                         </div>
                     </div>
-
+                    <!-- ROW 3: EMPTY -->
+                    <!-- ROW 4: IMAGE -->
                     <div class="black-img">
                         <img src="./assets/images/accueil/Pantherhome6.png" alt="Photos de Black Panther avec son costume">
                     </div>
@@ -223,29 +242,38 @@
 
         <!-- SECTION CONTACT -->
         <section class="contact">
+            <!-- CONTACT FORM'S -->
             <form class="content">
                 <p>Besoin de l’intervention du Wakanda ?</p>
                 <p class="title">Contactez nous ! </p>
+                <!-- Input for nom: required -->
                 <input required type="text" name="nom" placeholder="Nom"><br><br>
                 <input required type="email" name="email" placeholder="Email"> <br><br>
                 <textarea required placeholder="Message">Message</textarea>
                 <br>
+                <!-- BUTTON FOR SUBMITING FORMS VALUES -->
                 <button type="submit">ENVOYER</button>
             </form>
         </section>
     </main>
+    <!-- GRID WRAPPER 2 COLUMNS  AND 2 ROWS -->
     <footer>
+        <!-- COLUMN 1 / ROW 1 - 2: LOGO SAYNA X MARVEL -->
         <div class="part-1">
             <img class="img-1" src="./assets/images/all/footer1.png" alt="Photo de decoration, 3bulles un bleu et l'autre rose">
             <img class="img-2" src="./assets/images/all/footer2.png" alt="Icon SAYNA X Icon MARVEL">
         </div>
+        <!-- COLUMN 2 / ROW 1: ABOUT AND SOCIAL NETWORKS -->
+        <!-- GRID WRAPPER 2 COLUMNS AND 2 ROWS -->
         <div class="part-2">
+            <!-- COL 1 / ROW 1: ABOUT -->
             <div class="part-2-1">
                 <h2>PAGES</h2>
                 <a href="./wakanda.html">
                     à propos <br> Wakanda
                 </a>
             </div>
+            <!-- COL 2 / ROW 1: SOCIAL NETWORKS -->
             <div class="part-2-2">
                 <h2>RETROUVEZ NOUS</h2>
                 <ul>
@@ -271,11 +299,13 @@
                     </li>
                 </ul>
             </div>
+            <!-- COL 1-2 / ROW 2: COPYRIGHT -->
             <div class="part-2-3">
                 <p class="text-footer">2022 Tous droits réservés Politique de confidentialité Conditions d’utilisation</p>
             </div>
         </div>
     </footer>
+    <!-- POPUP MESSAGE -->
     <div class="popup-message">
         <div class="popup-content">
             <span class="message">OPERATION REUSSI !</span>
