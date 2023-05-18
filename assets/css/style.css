@@ -107,13 +107,14 @@ header nav ul {
 }
 
 h1[class='logo'] {
-    background-image: url('../images/all/footer2.png'), ;
-    width: 13vw;
+    background-image: url('../images/all/icon_SAYNA.png'), url('../images/all/icon_x.png'), url('../images/all/icon_MARVEL.png');
+    width: 20vw;
     height: 10vh;
     background-repeat: no-repeat;
     padding: 0;
     margin-top:  -1%;
-    background-size: contain;
+    background-size: 15%, 7%, 40%;
+    background-position: 0 0, 3vw 1vw, 5vw 0;
 }
 
 a {

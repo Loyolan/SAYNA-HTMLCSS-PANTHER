@@ -239,6 +239,7 @@ section[class='contact'] .content input {
     border: 1px solid #3D2DA6;
     padding: 0 5%;
     background-color: transparent;
+    font-size: 1em;
 }
 
 section[class='contact'] .content textarea {
@@ -249,6 +250,7 @@ section[class='contact'] .content textarea {
     padding: 0 5%;
     border-radius: 2em;
     background-color: transparent;
+    font-size: 1em;
 }
 
 section[class='contact'] .content button {

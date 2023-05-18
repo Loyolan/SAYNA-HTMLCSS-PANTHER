@@ -17,9 +17,9 @@ section[class="introduction"] {
     background-image: url('../images/enigme/Pantherenigme1.png');
     height: 30vw;
     width: 100%;
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 0% top;
+    background-position: left top;
     margin-top: -10%;
     display: grid;
     grid-template-columns: 3fr 6fr 2fr;
