@@ -107,7 +107,7 @@ header nav ul {
 }
 
 h1[class='logo'] {
-    background-image: url('../images/all/footer2.png');
+    background-image: url('../images/all/footer2.png'), ;
     width: 13vw;
     height: 10vh;
     background-repeat: no-repeat;

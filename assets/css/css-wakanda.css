@@ -43,11 +43,27 @@ section[class="content"] .left-content {
     grid-column: 2/3;
 }
 
-section[class="content"] .left-content .video iframe {
+section[class="content"] .left-content .video {
+    position: relative;
+}
+
+section[class="content"] .left-content .video video {
     width: 100%;
-    /*height: ;*/
-    height: vw;
-    background-color: #3D2DA6;
+    height: 20vw;
+}
+
+section[class="content"] .left-content .player-icon {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+section[class="content"] .left-content .player-icon:hover {
+    width: 30%;
 }
 
 section[class="content"] .right-content {
