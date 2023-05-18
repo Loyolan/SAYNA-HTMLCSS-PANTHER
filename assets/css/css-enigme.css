@@ -10,6 +10,7 @@ h1 {
     text-align: justify;
     font-weight: normal;
     font-size: 3em;
+    padding-left: 20%;
 }
 
 section[class="introduction"] {
@@ -17,10 +18,10 @@ section[class="introduction"] {
     background-image: url('../images/enigme/Pantherenigme1.png');
     height: 30vw;
     width: 100%;
-    background-size: 60%;
+    background-size: 55%;
     background-repeat: no-repeat;
-    background-position: left top;
-    margin-top: -10%;
+    background-position: left -8vw;
+    margin-top: -13%;
     display: grid;
     grid-template-columns: 3fr 6fr 2fr;
 }
@@ -39,6 +40,11 @@ section[class="introduction"] p {
     padding: 22%;
 }
 
+section[class="ligne"] {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
 /*
     || STYLE FOR ENIGME SECTION
 */
