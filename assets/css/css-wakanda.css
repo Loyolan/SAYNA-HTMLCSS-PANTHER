@@ -12,7 +12,7 @@ p {
 section[class="introduction"] {
     margin-top: -10%;
     background-image: url('../images/wakanda/Pantherwakanda1.png');
-    height: 80vh;
+    height: 40vw;
     width: 101%;
     background-size: 100% 60vw;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ section[class="introduction"] p {
 section[class="content"] {
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
-    margin-top: -calc(10vw + 1);
+    margin-top: -5%;
     padding-top: 15vw;
     background-size: contain;
     background-position: left top;
@@ -52,4 +52,10 @@ section[class="content"] .left-content .video iframe {
 
 section[class="content"] .right-content {
     grid-column: 4/5;
+}
+
+section[class="content"] .right-content .military-power .part-3 img {
+    width: 100%;
+    /*height: ;*/
+    height: 20vw;
 }
