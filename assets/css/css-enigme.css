@@ -15,7 +15,7 @@ h1 {
 section[class="introduction"] {
     padding: 15% 15%;
     background-image: url('../images/enigme/Pantherenigme1.png');
-    height: 60vh;
+    height: 30vw;
     width: 100%;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -79,11 +79,12 @@ section[class='enigme'] .transcription .wf {
 
 section[class='enigme'] .transcription input {
     width: 90%;
-    height: 3em;
+    height: 3vw;
     border-radius: 3em;
     border: 1px solid #9E91B7;
     padding: 0 5%;
     background-color: transparent;
+    font-size: 1em;
 }
 
 section[class='enigme'] .transcription .in-res {
@@ -91,11 +92,12 @@ section[class='enigme'] .transcription .in-res {
 }
 
 section[class='enigme'] .transcription button {
-    height: 3em;
+    height: 10%;
     border-radius: 3em;
     margin-top: 2%;
     border: none;
     padding: 3% 5% 3% 5%;
     background-color: #F2CEF2;
     margin-top: 5em;
+    font-size: 1em;
 }

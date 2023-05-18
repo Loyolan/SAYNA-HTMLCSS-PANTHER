@@ -46,7 +46,7 @@ section[class="content"] .left-content {
 section[class="content"] .left-content .video iframe {
     width: 100%;
     /*height: ;*/
-    height: 15vw;
+    height: vw;
     background-color: #3D2DA6;
 }
 
