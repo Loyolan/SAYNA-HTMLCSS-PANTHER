@@ -14,6 +14,7 @@ aside {
     display: grid;
     grid-template-rows: 2fr 1fr;
     position: fixed;
+    transition: transform 0.3s ease-in-out;
 }
 
 aside .ligne {
@@ -37,7 +38,7 @@ aside ul li {
 section[class="introduction"] {
     padding: 10% 15%;
     background-image: url('../images/accueil/Pantherhome1.png');
-    height: 50vh;
+    height: 30vW;
     width: 100%;
     background-size: 50%;
     background-repeat: no-repeat;
