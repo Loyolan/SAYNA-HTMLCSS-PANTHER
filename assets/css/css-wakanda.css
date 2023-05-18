@@ -14,22 +14,22 @@ section[class="introduction"] {
     background-image: url('../images/wakanda/Pantherwakanda1.png');
     height: 80vh;
     width: 101%;
-    background-size: 100% 100%;
+    background-size: 100% 60vw;
     background-repeat: no-repeat;
     background-position: -10em 0em;
     padding: 10%  10% 0 10%;
 }
 
 section[class="introduction"] p {
-    width: 60vh;
+    width: 30vw;
     text-align: justify;
 }
 
 section[class="content"] {
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
-    margin-top: -8%;
-    padding-top: 10%;
+    margin-top: -calc(10vw + 1);
+    padding-top: 15vw;
     background-size: contain;
     background-position: left top;
 }
@@ -46,6 +46,8 @@ section[class="content"] .left-content {
 section[class="content"] .left-content .video iframe {
     width: 100%;
     /*height: ;*/
+    height: 15vw;
+    background-color: #3D2DA6;
 }
 
 section[class="content"] .right-content {

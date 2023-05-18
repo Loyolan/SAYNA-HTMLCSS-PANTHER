@@ -100,13 +100,20 @@ header nav {
     justify-content: space-between;
 }
 
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
 h1[class='logo'] {
     background-image: url('../images/all/footer2.png');
     width: 13vw;
     height: 10vh;
     background-repeat: no-repeat;
     padding: 0;
-    margin-top:  -0.01vw;
+    margin-top:  -1%;
+    background-size: contain;
 }
 
 a {
@@ -160,7 +167,7 @@ footer {
     background-image: url('../images/all/back_footer.png');
     background-repeat: no-repeat;
     margin-left: -1%;
-    height: 70vh;
+    height: 40vw;
     width: 100vw;
     /* GRID */
     display: grid;
@@ -181,7 +188,7 @@ footer .part-1 {
 footer .part-1 .img-1 {
     position: absolute;
     z-index: 1;
-    width: 10vw;
+    width: 20vw;
 }
 
 footer .part-1 .img-2 {
@@ -207,6 +214,10 @@ footer .part-2-1 {
 footer .part-2-2 {
     grid-column: 2/3;
     grid-row: 1;
+}
+
+footer .part-2-2 img {
+    width: 50%;
 }
 
 footer .part-2-3 {
