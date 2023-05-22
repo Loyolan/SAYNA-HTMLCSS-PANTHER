@@ -1,7 +1,6 @@
 /*
     || CSS GLOBAL FOR ALL PAGE (HEADER, FOOTER, FONTS, SIDEBAR)
 */
-
 /*---------
     || FONTS
 ----------------*/
@@ -130,12 +129,13 @@ h1[class='logo'] {
     margin-top:  -1%;
     background-size: 15%, 7%, 40%; /* size of each background */
     background-position: 0 0, 3vw 1vw, 5vw 0; /* position of each background */
-    filter: invert(20%); /* reverse color of logo (20%) (grey) */
+    filter: invert(0%) hue-rotate(0deg) saturate(100%);
+    transition: filter 0.3s; /* reverse color of logo (20%) (grey) */
     cursor: pointer;
 }
 
 h1[class='logo']:hover {
-    filter: invert(0%); /* remove color reverse if cursor passed */
+    filter: invert(64%) sepia(8%) saturate(1033%) hue-rotate(219deg) brightness(91%) contrast(90%);/* remove color reverse if cursor passed */
 }
 
 a {

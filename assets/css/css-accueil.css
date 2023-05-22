@@ -32,6 +32,10 @@ aside ul li {
     margin-top: 5%;
 }
 
+aside ul li:hover {
+    filter: brightness(0) invert(1);
+}
+
 /*
     || STYLE FOR INTRODUCTION SECTION
 */
